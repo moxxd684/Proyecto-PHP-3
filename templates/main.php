@@ -1,9 +1,9 @@
 
 <main class="bg-dark text-white p-4">
     <div class="container"> <!-- Contenedor para centrar el contenido -->
-        <div class="row align-items-center justify-content-center justify-content-md-start">
+        <div class="d-flex flex-column align-items-center">
             <!-- Columna para la imagen del Pokémon -->
-            <div class="col-md-auto text-center px-md-3">
+            <div class="w-100 text-center px-md-3">
                 <!-- Se muestra la imagen del Pokémon -->
                 <img src="<?= $url_imagen; ?>" class="img-fluid rounded pokemon-image" alt="Imagen de <?= $nombre ?>">
             </div>
